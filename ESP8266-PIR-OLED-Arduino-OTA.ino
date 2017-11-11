@@ -114,7 +114,7 @@ void setup() {
   #endif
 }
 
-void setupOTA (){
+void setupOTA() {
     ArduinoOTA.setPort(8266); // change this is you wish to use a different port
     ArduinoOTA.setHostname(mqtt_device);
     ArduinoOTA.setPassword((const char *)OTApassword);
